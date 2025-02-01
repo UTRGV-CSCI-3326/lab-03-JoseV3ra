@@ -13,9 +13,9 @@ public class BankAccount
     x += x;
     x += 1.00;
 
-    x = Math.round(x * 100.0) / 100.0;
+    
 
-System.out.print("Bob's final balance: " + x);
+    System.out.printf("Bob's final balance: $%.2f%n", x);
     }
 }    
 
